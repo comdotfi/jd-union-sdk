@@ -1,0 +1,26 @@
+{
+    "name": "comdotfi/jd-union-sdk",
+    "description": "JD union php sdk",
+    "type": "library",
+    "license": "MIT",
+    "config" : {
+        "optimize-autoloader" : true
+    },
+    "autoload": {
+        "psr-4": {
+            "Comdotfi\\JdUnionSdk\\ACES": "src/security"
+        }
+    },
+    "authors": [
+        {
+            "name": "comdotfi",
+            "email": "do@com.fi"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.1",
+        "monolog/monolog" : "1.24.0",
+        "netresearch/jsonmapper" : "1.6.0"
+    }
+}
