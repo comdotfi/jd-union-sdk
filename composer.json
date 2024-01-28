@@ -11,7 +11,8 @@
             "JDUN": "src/jd"
         },
         "psr-4": {
-            "ACES\\": "src/security"
+            "ACES\\": "src/security",
+            "JDUN\\": "src/jd"
         }
     },
     "authors": [
