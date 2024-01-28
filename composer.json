@@ -7,6 +7,9 @@
         "optimize-autoloader" : true
     },
     "autoload": {
+        "psr-0": {
+            "JDUN": "src/jd"
+        },
         "psr-4": {
             "ACES\\": "src/security"
         }
