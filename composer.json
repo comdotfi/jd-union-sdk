@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Comdotfi\\JdUnionSdk\\ACES": "src/security"
+            "ACES": "src/security"
         }
     },
     "authors": [
