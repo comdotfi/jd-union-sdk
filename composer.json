@@ -15,7 +15,6 @@
             "email": "do@com.fi"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=8.1"
     }
