@@ -1,13 +1,13 @@
 {
     "name": "comdotfi/jd-union-sdk",
-    "description": "JD union php sdk",
+    "description": "JD union php sdk 20240112",
     "type": "library",
     "license": "MIT",
     "config" : {
         "optimize-autoloader" : true
     },
     "autoload": {
-        "psr-0": {"jd": "src"}
+        "classmap": ["src/jd/"]
     },
     "authors": [
         {
