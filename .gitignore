@@ -1,3 +1,4 @@
 /.git
 /.idea
 /vendor
+.DS_Store
