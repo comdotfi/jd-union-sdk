@@ -1,0 +1,23 @@
+{
+    "name": "comdotfi/jd-union-sdk",
+    "description": "JD union php sdk (jos-php-open-api-sdk-2.0) 20260530",
+    "type": "library",
+    "license": "MIT",
+    "config" : {
+        "optimize-autoloader" : true
+    },
+    "autoload": {
+        "classmap": ["src/jd/"]
+    },
+    "authors": [
+        {
+            "name": "comdotfi",
+            "email": "do@com.fi"
+        }
+    ],
+    "require": {
+        "php" : ">=5.6",
+        "monolog/monolog" : "1.24.0",
+        "netresearch/jsonmapper" : "1.6.0"
+    }
+}
